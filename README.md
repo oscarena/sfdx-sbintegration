@@ -15,16 +15,23 @@ Una vez desplegado el proyecto deberas seguir estos puntos de la superbadge ya q
 In addition, the billing service is secured with user and password credentials. Store them as a ServiceCredentials Custom Setting (named BillingServiceCredential), and pass to the outbound call:
 
 Username	"bsUser1".
+
 Password	"bsPass1".
+
 *Note: While it is best practice to encrypt credentials, for the purpose of this superbadge store them in clear text. *
 
 The external PMS service calls your org’s custom Apex REST service back; configure it as a Connected App with the following information:
 
 Connected App Name	"ProjectService".
+
 API Name	"ProjectService".
+
 Contact email	"Your email".
+
 Enable OAuth Settings	Checked.
+
 Callback URL	"https://sb-integration-pms.herokuapp.com/oauth/_callback".
+
 Selected OAuth Scopes	Full access & Perform requests on your behalf at any time (refresh_token, offline_access).
 Register the generated Consumer Key and Consumer Secret with the Square Peg security whitelisting process.
 
