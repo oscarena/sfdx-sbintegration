@@ -6,15 +6,15 @@ Esto es un proyecto SFDX es necesario convertirlo a metadataApi para poder despl
 
 Para poder desbloquear el acceso a esta superbadge de integración necesitarás haber completado previamente y por tu cuenta los trailheads:
 
-Apex Integration Services: https://trailhead.salesforce.com/en/modules/apex_integration_services
-Asyncronous Apex: https://trailhead.salesforce.com/en/modules/asynchronous_apex
-Api Basics: https://trailhead.salesforce.com/en/modules/api_basics
-Process Automation: https://trailhead.salesforce.com/en/modules/business_process_automation
+Apex Integration Services: https://trailhead.salesforce.com/en/modules/apex_integration_services.
 
+Asyncronous Apex: https://trailhead.salesforce.com/en/modules/asynchronous_apex.
+
+Api Basics: https://trailhead.salesforce.com/en/modules/api_basics.
+
+Process Automation: https://trailhead.salesforce.com/en/modules/business_process_automation.
 
 Para poder completar los challenges de la superbadge se recomienda crear una nueva org developer vacia para que no existan conflictos con otros trailheads. Las cuentas developer adicionales se pueden asociar a tu cuenta developer original donde tienes todas las chapas y poder ir sumando todas.
-
-----
 
 Una vez desplegado el proyecto deberas seguir estos puntos de la superbadge ya que las connected apps y el contenido de los custom settings no se desplega:
 
