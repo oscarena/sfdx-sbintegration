@@ -46,6 +46,7 @@
     <description>Shadow object containing records loaded from an inbound integration with the external PMS. It is a child to Opportunities as the originating source.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
